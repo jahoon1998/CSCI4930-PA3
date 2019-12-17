@@ -18,15 +18,12 @@ If needed, take fractions of the dataset to ac commodate into the memory capacit
 Randomly split the SET-A dataset into 80% training and 20% test (holdout set).
 
 ## Task 1 : Logistic Regression based Classifier (LR)
-1. Logistic Regression based classifier construction. (Mini-batch gradient descent). Once again, do not call
+#### 1. Logistic Regression based classifier construction. (Mini-batch gradient descent). Once again, do not call
 library function for logistic regression fit method.
-
-1.1 Use a 10-fold cross validation strategy to obtain the best set of hyper-parameter values of the logistic
+#### 1.1 Use a 10-fold cross validation strategy to obtain the best set of hyper-parameter values of the logistic
 regression. Please report a discussion why you would choose the values. (On the training set)
-
 1.2 Train the classifier on the training set, and report the training confusion matrix, accuracy, precision, recall,
 F1-score, the ROC curve and the corresponding AUC score.
-
 1.3 Using the model, test the test set, and report the testing confusion matrix, accuracy, precision, recall, F1-
 score, the ROC curve and the corresponding AUC score.
 
